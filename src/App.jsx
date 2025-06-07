@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import { Helmet } from "react-helmet-async"
 import Search from './components/Search.jsx'
 import Spinner from './components/Spinner.jsx'
 import MovieCard from './components/MovieCard.jsx'
@@ -87,9 +86,6 @@ const App = () => {
     <main>
 
       <div className="pattern"/>
-        <Helmet>
-        <title>movies</title>
-      </Helmet>
       <div className="wrapper">
         <header>
           <img src="./hero.png" alt="Hero Banner" />
