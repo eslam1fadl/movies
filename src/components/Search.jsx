@@ -1,10 +1,11 @@
 import React from 'react';
+import searchIcon from '/search.svg';
 
 export default function Search({ searchTerm, setSearchTerm }) {
   return (
     <div className="search">
       <div>
-        <img src="/search.svg" alt="search" />
+        <img src={searchIcon} alt="search" />
         <input
           type="text"
           placeholder="Search through thousands of movies"
